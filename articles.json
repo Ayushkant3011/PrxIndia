@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "India’s Tech Industry Growth in 2025",
+    "author": "Ayush Kant",
+    "date": "September 4, 2025",
+    "image": "https://www.worldfinance.com/wp-content/uploads/2015/03/India-tech-revolution.jpg",
+    "content": "India’s tech industry is expected to see significant growth in 2025 with an increase in AI adoption, cloud computing usage, and digital transformation across multiple industries. Startups are booming, and government initiatives are fostering innovation at all levels..."
+  },
+  {
+    "id": 2,
+    "title": "PRX India Expands Media Coverage",
+    "author": "Editorial Team",
+    "date": "September 2, 2025",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "content": "PRX India has announced the expansion of its media coverage services across multiple regions, offering new opportunities for businesses to showcase their stories. The new strategy includes regional news, tech updates, and business highlights to provide diverse content to readers..."
+  },
+  {
+    "id": 3,
+    "title": "AI Trends Transforming Business",
+    "author": "Riya Sharma",
+    "date": "August 30, 2025",
+    "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-07/07/full/1720369883-1424.jpg?im=FeatureCrop,size=(826,465)",
+    "content": "Artificial Intelligence is rapidly changing the business landscape. From chatbots to predictive analytics, companies are leveraging AI to improve efficiency, customer experience, and decision-making. Experts predict massive adoption in finance, healthcare, and retail sectors..."
+  },
+  {
+    "id": 4,
+    "title": "Startups Driving Innovation in India",
+    "author": "Tech Desk",
+    "date": "August 28, 2025",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
+    "content": "Indian startups are leading the way in innovation, particularly in fintech, edtech, and healthtech. With increasing investment and government support, startups are creating solutions to real-world problems and contributing significantly to the economy..."
+  }
+]
