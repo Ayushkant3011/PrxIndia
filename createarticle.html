@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Article - PRX India</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="max-w-[1080px] mx-auto px-4 py-4 bg-gray-900 text-white flex justify-between items-center rounded-b-xl">
+    <h1 class="text-xl font-bold">PRX India</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Create Article Form -->
+  <main class="max-w-[1080px] mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold mb-8 text-center">Add Your Article</h2>
+    <form id="add-article-form" class="bg-white p-6 rounded shadow max-w-xl mx-auto space-y-4">
+      <div>
+        <label class="block font-semibold mb-1" for="title">Title</label>
+        <input type="text" id="title" required class="w-full border border-gray-300 rounded px-3 py-2">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1" for="author">Author</label>
+        <input type="text" id="author" required class="w-full border border-gray-300 rounded px-3 py-2">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1" for="date">Date</label>
+        <input type="date" id="date" required class="w-full border border-gray-300 rounded px-3 py-2">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1" for="image">Image URL</label>
+        <input type="url" id="image" required class="w-full border border-gray-300 rounded px-3 py-2">
+      </div>
+      <div>
+        <label class="block font-semibold mb-1" for="content">Content</label>
+        <textarea id="content" rows="6" required class="w-full border border-gray-300 rounded px-3 py-2"></textarea>
+      </div>
+      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-500 transition">Submit Article</button>
+      <p id="add-article-msg" class="text-green-600 font-semibold mt-2"></p>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="max-w-[1080px] mx-auto px-4 py-4 text-center bg-gray-900 text-white rounded-t-xl">
+    <p>© 2025 PRX India. All Rights Reserved.</p>
+  </footer>
+
+  <script src="createarticle.js"></script>
+</body>
+</html>
